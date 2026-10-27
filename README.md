@@ -106,7 +106,7 @@ kc.sh start --spi-password-hashing--bcrypt--cost=13
 # or: KC_SPI_PASSWORD_HASHING__BCRYPT__COST=13
 ```
 
-(Older 26.x releases use the single-dash form `--spi-password-hashing-bcrypt-cost`.) A realm `hashIterations(n)` policy with `n` between 4 and 31 overrides the cost for that realm.
+Releases that predate the `--` separator in SPI options use the single-dash form `--spi-password-hashing-bcrypt-cost`. A realm `hashIterations(n)` policy with `n` between 4 and 31 overrides the cost for that realm.
 
 In most setups you should keep Keycloak's default algorithm and use this provider only to verify imported users.
 
