@@ -245,6 +245,14 @@
             -->
             <id>it</id>
             <build>
+                <testResources>
+                    <testResource>
+                        <directory>examples</directory>
+                        <includes>
+                            <include>realm-import.json</include>
+                        </includes>
+                    </testResource>
+                </testResources>
                 <plugins>
                     <plugin>
                         <groupId>org.apache.maven.plugins</groupId>
