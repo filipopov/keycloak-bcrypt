@@ -1,0 +1,15 @@
+{
+  "username": "jane",
+  "email": "jane@example.com",
+  "emailVerified": true,
+  "firstName": "Jane",
+  "lastName": "Doe",
+  "enabled": true,
+  "credentials": [
+    {
+      "type": "password",
+      "credentialData": "{\"hashIterations\":-1,\"algorithm\":\"bcrypt\"}",
+      "secretData": "{\"value\":\"$2a$12$KZRBntqSyoQjf2ots3e/ku9H.9/XVg5AjY7nmQMGAGBdxEmDD.cZq\",\"salt\":\"\"}"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "realm": "appointiko",
+  "enabled": true,
+  "clients": [
+    {
+      "clientId": "appointiko-cli",
+      "name": "Demo client for the password grant (testing only)",
+      "publicClient": true,
+      "standardFlowEnabled": false,
+      "directAccessGrantsEnabled": true
+    }
+  ],
+  "users": [
+    {
+      "username": "jane",
+      "email": "jane@example.com",
+      "emailVerified": true,
+      "firstName": "Jane",
+      "lastName": "Doe",
+      "enabled": true,
+      "credentials": [
+        {
+          "type": "password",
+          "credentialData": "{\"hashIterations\":-1,\"algorithm\":\"bcrypt\"}",
+          "secretData": "{\"value\":\"$2a$12$KZRBntqSyoQjf2ots3e/ku9H.9/XVg5AjY7nmQMGAGBdxEmDD.cZq\",\"salt\":\"\"}"
+        }
+      ]
+    },
+    {
+      "username": "php-user",
+      "email": "php-user@example.com",
+      "emailVerified": true,
+      "firstName": "Php",
+      "lastName": "User",
+      "enabled": true,
+      "credentials": [
+        {
+          "type": "password",
+          "credentialData": "{\"hashIterations\":-1,\"algorithm\":\"bcrypt\"}",
+          "secretData": "{\"value\":\"$2y$12$pGebS3.juJHxuWbWVq32O.SM7oavbplMNFxFor0h5.XtbzPBzAEvG\",\"salt\":\"\"}"
+        }
+      ]
+    }
+  ]
+}
